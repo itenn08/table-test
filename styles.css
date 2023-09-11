@@ -20,19 +20,13 @@ th {
 
 .main {
     width: 100%;
-    max-width: 100vw;
-    overflow-x: auto;
-    overflow-y: auto;
     padding: 1rem;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1068px) {
     .main {
-        align-items: flex-start;
+        flex-direction: column;
     }
 }
